@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+        background-image: url(img-portfolio2/abstract-2729141_1280.png);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 650px
+        
+    }
+
+.about-me-content{
+    display: block;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(14, 13, 13, 0.873);
+    height: 150px;
+    box-shadow: 0 4px 4px 0 rgba(58, 122, 30, 0.262);
+    padding: 30px 100px;
+}
+.logo{
+    max-height: 15vh;
+    max-width: 15vh;
+    border-radius: 100%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #266507;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #1c9104;
+}
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #6c786e;
+    transition: 0.3s;
+    bottom: 0;
+}
+nav ul li a:hover::after{
+    width: 100%
+}
+.btn{
+    color: #e9e0e0;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 14px 36px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    border: 2px solid #1c391a
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #e9e0e0;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 6px #1bd10a;
+}
+.passion-content{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.passion1{
+    color: #e9e0e0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 75px;
+    width: 450px;
+    height: 250px;
+}
+.passion1 h2{
+    font-size: 20px;
+    color: #e9e0e0;
+}
+.passion1 p{
+    font-size: 14px;
+    text-align: justify;
+    padding: 20px;
+}
+.passion1 .img1{
+    position: absolute;
+    left: 45px;
+    top: 45px;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px 1px #1bd10a;
+}
+.passion1 .img2{
+    position: absolute;
+    right: 45px;
+    top: 45px;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px 1px #1bd10a;
+}
+.intro-content{
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: #fff;
+    width: 550px;
+    height: 200px;
+    left: 32%;
+    top: -125px;
+}
+.passion2{
+    color: #e9e0e0;
+    text-align: center;
+    margin-top: -175px;
+    padding: 20px;
+    width: 450px;
+    height: 180px;
+}
+.passion2 h2{
+    font-size: 20px;
+    color: #ece1e1;
+}
+.passion2 p{
+    font-size: 14px;
+    text-align: justify;
+    padding: 20px;
+}
+.passion2 .img3{
+    position: absolute;
+    left: 45px;
+    top: -200px;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px 1px #1bd10a;
+}
+.passion2 .img4{
+    position: absolute;
+    right: 45px;
+    top: -200px;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px 1px #1bd10a;
+}

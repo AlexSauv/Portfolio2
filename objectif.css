@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+        background-image: url(img-portfolio2/pexels-asim-razan-32997.jpg);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+    }
+
+.objectif-page-content{
+    display: block;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.255);
+    background-size: auto;
+}
+.objectif-content{
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(19, 19, 19, 0.689);
+    height: 150px;
+    box-shadow: 0 4px 4px 0 rgba(3, 45, 254, 0.403);
+    padding: 30px 100px;
+}
+.logo{
+    max-height: 15vh;
+    max-width: 15vh;
+    border-radius: 100%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #0059cd;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #037ccd;
+}
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #bfc1c2;
+    transition: 0.3s;
+    bottom: 0;
+}
+nav ul li a:hover::after{
+    width: 100%
+}
+.btn{
+    color: #e9e0e0;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 14px 36px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    border: 2px solid #201661
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #e9e0e0;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 6px #0eaee3;
+}
+.valeurs-content{
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 525px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #ffffff;
+    
+}
+.valeurs-content h1{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+.valeurs-content img{
+    width: 25vh;
+    height: 20vh;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px 0 rgba(3, 45, 254, 0.403)
+}
+.valeur1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+}
+.valeurs-content1{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -80px;
+    width: 725px;
+    left: 355px;
+}
+.valeurs-content2{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: aliceblue;
+    text-align: center;
+    font-size: 18px;
+    margin-top: -280px;
+    width: 1250px;
+    left: 85px;
+}
+.my-objectif-content{
+    display: inline-block;
+    position: relative;
+    width: 1440px;
+    height: 600px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.my-objectif-content h2{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+    padding: 15px;
+    font-size: 34px;
+}
+.objectif-items{
+    display: flex;
+}
+.short-objectif{
+    color: rgb(248, 248, 248);
+    font-style: italic;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    height: 350px;
+    margin: 50px;
+    border: 1px solid #73c5e5;
+    border-radius:10px;
+    background-color: rgba(0, 0, 0, 0.736);
+    box-shadow: 0 4px 4px 0 rgba(3, 45, 254, 0.403);
+}
+.short-objectif h3{
+    margin-top: 50px;
+}
+.short-objectif p{
+    padding: 50px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 14px;
+}
+.long-objectif{
+    color: rgb(248, 248, 248);
+    font-style: italic;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+    height: 350px;
+    margin: 50px;
+    border: 1px solid #73c5e5;
+    border-radius:10px;
+    background-color: rgba(0, 0, 0, 0.736);
+    box-shadow: 0 4px 4px 0 rgba(3, 45, 254, 0.403);
+}
+.long-objectif h3{
+    margin-top: 50px;
+}
+.long-objectif p{
+    padding: 50px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 14px;
+}

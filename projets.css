@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+body{
+    background-image: url(img-portfolio2/pexels-anniroenkae-3435249.jpg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+}
+.projets-content{
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.808);
+    box-shadow: 0 4px 4px 0 rgba(223, 66, 225, 0.262);
+    height: 150px;
+    padding: 30px 100px;
+}
+.logo{
+    max-height: 15vh;
+    max-width: 15vh;
+    border-radius: 100%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: #9d50a7;
+    position: relative;
+    padding: 5px 0;
+}
+nav ul li a:hover{
+    color: #bc09aa;
+}
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #fff;
+    transition: 0.4s;
+    bottom: 0;
+}
+nav ul li a:hover::after{
+    width: 100%
+}
+.btn{
+    color: #dad0d0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.4s ease-in-out;
+    background-size: 152% 100%;
+    border: 2px solid
+}
+.btn:hover{
+    background-color: rgb(17, 14, 14) ;
+    opacity: 0.80;
+    color: #861792 ;
+    box-shadow: 2px 2px 6px 1px #e3dee4;
+}
+.return-top a{
+    color: #dad0d0;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+.content{
+    position: absolute;
+    margin: auto;   
+}
+.introduction{
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    top: 80px;
+    justify-content: center;
+    height: 550px;
+    width: 700px;
+    align-content: center;
+    color: #ededed;
+    margin-bottom: 100px;
+}
+.introduction h1{
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    font-size: 45px;
+
+}
+.introduction p{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+.projets-container{
+    color: #fff;
+    position: relative;
+    margin-left: 200px;
+  
+}
+.projet-item{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 1200px;
+    padding-bottom: 125px;
+    padding-top: 125px;
+    border-bottom: #fff 1px solid;
+
+}
+.projet-item .item-content{
+    display: inline-block;
+    position: relative;
+    margin-left: -60px;
+    margin-right: -60px;
+    
+}
+
+.projet-item .item-content img{
+    margin: 20px;
+    width: 45vh;
+    height: 55vh;
+    margin-bottom: 50px ;
+    box-shadow: 0px 2px 6px 0px #0099ff;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+.projet-item .item-content img:hover{
+    width: 70vh;
+    height: 80vh;
+    margin-left: 20px;
+    border-radius: 10%;
+    box-shadow: 0px 4px 8px 0px #0099ff;
+    cursor: default;
+    transition: all 0.5s ease-in-out;
+}
+.item-content .description{
+    position: relative;
+    width: 900px;
+    height: 350px;
+    padding: 10px;
+    bottom: 30px;
+    margin: auto;
+    align-content: center;
+    background: rgba(114, 5, 116, 0.3);
+    border: 2px solid #dad0d0;
+    box-shadow: 0 2px 4px 0 #dad0d0;
+    border-radius: 20px;
+
+}
+
+.item-content .description p{
+    margin-bottom: 20px;
+    padding: 25px;
+    text-align: justify;
+}
+.item-content .description i{
+    padding: 20px;
+    font-size: 30px;
+}
+.link-github a{
+    color: #e4adeb;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #e4adeb;
+    transition: all 0.4s ease-in-out;
+}
+.link-github a:hover{
+    color: #ffffff;
+    padding: 6.5 px;
+    font-size: 15px;
+    border: 2px solid#ffffff;
+    box-shadow: 0px 2px 4px #861792;
+    background-color: rgba(74, 19, 75, 0.3);
+    transition: all 0.4s ease-in-out;
+}
+
+.projet-item .item-content h2{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 26px;
+    }
+.projet-item .items-content::before{
+    visibility: hidden;
+}
