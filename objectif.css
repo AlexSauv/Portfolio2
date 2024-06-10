@@ -197,3 +197,103 @@ nav ul li a:hover::after{
     line-height: 30px;
     font-size: 14px;
 }
+@media (min-width:320px) and (max-width:499px){
+    html{
+        font-size: 60%;
+    }
+    body{
+        min-width: 320px;
+    }
+    nav{
+        min-width: 320px;
+        max-height: 100px;
+        padding: 20px 5px;
+        display: inline-flex;
+    }
+    nav ul{
+        display: inline;
+        
+    }
+    nav ul li{
+        padding: 8px 15px ;
+        font-size: 90%;
+        
+    }
+    .logo{
+        max-width: 6vh;
+        max-height: 6vh;
+        margin-right: 10px;
+    } 
+    .btn{
+        padding: 6px 10px;
+        font-size: 100%;
+        margin-left: 6px;
+    }
+    .valeurs-content{
+        width: 320px;
+        height: 450px;   
+    }
+    .valeurs-content h1{
+        font-size: 140%;
+    }
+    .valeurs-content img{
+        width: 15vh;
+        height: 10vh;
+    }
+    .valeur1{
+        font-size: 120%;
+    }
+    .valeurs-content1{
+        font-size: 120%;
+        margin-top: 140px;
+        width: 315px;
+        left: 0px;
+    }
+    .valeurs-content2{
+        font-size: 120%;
+        margin-top: -215px;
+        width: 315px;
+        left: 0px;
+    }
+    .my-objectif-content{
+        width: 320px;
+        height: 600px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .my-objectif-content h2{
+        font-size: 130%;
+    }
+    .objectif-items{
+        display: block;
+    }
+    .short-objectif{
+        width: 320px;
+        height: 320px;
+        margin: 0px;
+    }
+    .short-objectif h3{
+        margin-top: 0px;
+    }
+    .short-objectif p{
+        padding: 30px;
+        line-height: 20px;
+        font-size: 120%;
+    }
+    .long-objectif{
+        position: relative;
+        width: 320px;
+        height: 320px;
+        top: 20px;
+        margin: 0px;
+    }
+    .long-objectif h3{
+        margin-top: 50px;
+    }
+    .long-objectif p{
+        padding: 30px;
+        line-height: 20px;
+        font-size: 120%;
+    }
+    
+}

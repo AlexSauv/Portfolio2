@@ -133,15 +133,15 @@ nav ul li a:hover::after{
 .projet-item .item-content{
     display: inline-block;
     position: relative;
-    margin-left: -60px;
-    margin-right: -60px;
+    margin-left: -80px;
+    margin-right: -80px;
     
 }
 
 .projet-item .item-content img{
-    margin: 20px;
-    width: 45vh;
-    height: 55vh;
+    margin: 5px;
+    width: 35vh;
+    height: 45vh;
     margin-bottom: 50px ;
     box-shadow: 0px 2px 6px 0px #0099ff;
     border-radius: 50%;
@@ -206,4 +206,110 @@ nav ul li a:hover::after{
     }
 .projet-item .items-content::before{
     visibility: hidden;
+}
+@media (min-width:320px) and (max-width:499px) {
+    html{
+        font-size: 60%;
+    }
+    body{
+        min-width: 320px;
+    }
+    nav{
+        min-width: 320px;
+        max-height: 100px;
+        padding: 20px 5px;
+        display: inline-flex;
+    }
+    nav ul{
+        display: inline;
+        
+    }
+    nav ul li{
+        padding: 8px 15px ;
+        font-size: 90%;
+        
+    }
+    .logo{
+        max-width: 6vh;
+        max-height: 6vh;
+        margin-right: 10px;
+    } 
+    .btn{
+        padding: 6px 10px;
+        font-size: 100%;
+        margin-left: 6px;
+    }
+    .introduction{
+        left: 20px;
+        top: 0px;
+        height: 350px;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    .introduction h1{
+        font-size: 130%;
+    
+    }
+    .introduction p{
+        font-size: 120%;
+    }
+    .projets-container{
+        margin-left: 0px;
+        text-align: center;
+      
+    }
+    .projet-item{
+        width: 295px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    
+    }
+    .projet-item .item-content{
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+    
+    .projet-item .item-content img{
+        margin: 2px;
+        width: 15vh;
+        height: 25vh;
+        margin-bottom: 30px ;
+    }
+    .projet-item .item-content img:hover{
+        width: 30vh;
+        height: 40vh;
+        margin-left: 0px;
+    }
+    .item-content .description{
+        width: 290px;
+        height: 320px;
+        padding: 10px;
+        bottom: 0px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .item-content .description p{
+        margin-bottom: 0px;
+        padding: 10px;
+    }
+    .item-content .description i{
+        padding: 20px;
+        font-size: 200%;
+    }
+    .link-github a{
+        font-size: 100%;
+        padding: 6px;
+    }
+    .link-github a:hover{
+        font-size: 110%;
+        padding: 8px;
+    }
+    
+    .projet-item .item-content h2{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 130%
+        }
 }

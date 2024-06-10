@@ -18,7 +18,6 @@ body{
     }
 
 .cv-content{
-    display: block;
     width: 100%;
 }
 nav{
@@ -321,7 +320,7 @@ nav ul li a:hover::after{
     text-decoration: underline;
 }
 .maetris-content h5{
-    color: #ec0404;
+    color: #ff0000d2;
     font-size: 14px;
     text-align: start;
     margin-bottom: 5px;
@@ -418,4 +417,221 @@ footer:hover a{
 }
 footer:active{
     box-shadow: 0px 0px 0px 0px;
+}
+@media (min-width:320px) and (max-width:499px) {
+    html{
+        font-size: 60%;
+    }
+    body{
+        min-width: 320px;
+    }
+    nav{
+        min-width: 320px;
+        max-height: 100px;
+        padding: 20px 5px;
+        display: inline-flex;
+    }
+    nav ul{
+        display: inline;
+        
+    }
+    nav ul li{
+        padding: 8px 15px ;
+        font-size: 90%;
+        
+    }
+    .logo{
+        max-width: 6vh;
+        max-height: 6vh;
+        margin-right: 10px;
+    } 
+    .btn{
+        position: relative;
+        padding: 6px 12px;
+        font-size: 10px;
+        margin-left: 6px;
+    }
+    .cv-items{
+        max-width: 320px;
+    }
+    .current-wish h2{
+        font-size: 100%;
+        text-align: center;
+        margin-top: 40px;
+        margin-left:20px;
+        
+    }
+    .link-school{
+        width: 210px;
+        height: 35px;
+        padding: 6px;
+    }
+    .link-school a{
+        font-size: 100%;
+    }
+    .link-school:hover{
+        width: 211px;
+        height: 36px;
+        padding: 6px;
+    }
+    .cv-introduction{
+        left: 20px;
+        top: 40px;
+        width: 300px;
+    }
+    .cv-introduction h1{
+        font-size: 110%;
+    }
+    .cv-introduction h2{
+        font-size: 110%;
+        padding: 20px;
+        font-style: italic;
+    }
+    .cv-itself{
+        width: 310px;
+        left: 20px;
+        top: 100px;
+        margin-bottom: 80px;
+    }
+    .exp-content .exp-title{
+        font-size: 120%; 
+        margin-bottom: 10px;
+    }
+    .exp-items1{
+        margin-top: 30px;
+        width: 310px;
+        height: 450px;
+        left: 0px;
+    }
+    .exp-items1 .exp-description{
+        width: 300px;
+        top: 10px;
+        left: -15px;
+    }
+    .exp-items1 .exp-description h3{
+        font-size: 120%;
+    }
+    .exp-items1 .exp-description p{
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 110%;
+        width: 305px;
+    }
+    .exp-items1 .exp-description ul{
+        top: 15px;
+        
+    }
+    .exp-items1 .exp-description ul li{
+        padding: 3px;
+        width: 70px;
+    }
+    .exp-items1 img{
+        width: 10vh;
+        height: 10vh;
+    }
+    .exp-items2{
+        display: block;
+        margin-top: 30px;
+        max-width: 310px;
+        height: 450px;
+        left: 0px;
+    }
+    .exp-items2 .exp-description{
+        width: 300px;
+        top: -160px;
+        left: -15px;
+    }
+    .exp-items2 .exp-description h3{
+        font-size: 120%;
+    }
+    .exp-items2 .exp-description p{
+        margin-top: 10px;
+        text-align: justify;
+        font-size: 110%;
+        width: 305px;
+    }
+    .exp-items2 .exp-description ul{
+        top: 15px; 
+    }
+    .exp-items2 .exp-description ul li{
+        padding: 3px;
+        width: 70px;
+    }
+    .exp-items2 img{
+        width: 10vh;
+        height: 10vh;
+    }
+    .school-content{
+        width: 310px;
+        left: 0px;
+    }
+    .school-content .school-title{
+        margin-top: 125px;
+        font-size: 120%; 
+    }
+    .school-items {
+        display: block;
+    }
+    .school-item1{
+        width: 320px;
+        height: 800px;
+        padding: 20px;
+        margin-left: -5px;
+    }
+    .school-item1 h4{
+        font-size: 120%;
+    }
+    .school-item1 h6{
+        font-size: 110%;
+    }
+    .school-description h3{
+        font-size: 120%;
+    }
+    .school-description p{
+        font-size: 110%;
+    }
+    .school-item1 .school-description ul li{
+        margin-top: 10px;
+    }
+    .school-item1 img{
+        width: 15vh;
+        height: 10vh;
+        left: 85px;
+    }
+    .maetris-content h5{
+        font-size: 120%;
+    }
+    .school-item2{
+        width: 320px;
+        height: 800px;
+        padding: 20px;
+        margin-left: -5px;
+        border-left: 2px solid #cecacab0;
+    }
+    .school-item2 h4{
+        font-size: 120%;
+    }
+    .school-item2 h6{
+        font-size: 110%;
+    }
+    .school-item2 img{
+        width: 15vh;
+        height: 10vh;
+        left: 90px;
+    }
+    footer {
+        left: 70%;
+        bottom: -5px;
+    }
+    .footer-content{
+        width: 90px;
+        height: 25px;
+        padding: 6px;
+    }
+    .footer-content a{
+        width: 110px;
+        height: 30px;
+        font-size: 110%;
+    
+    }
 }
