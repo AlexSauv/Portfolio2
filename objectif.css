@@ -231,7 +231,7 @@ nav ul li a:hover::after{
     }
     .valeurs-content{
         width: 320px;
-        height: 450px;   
+        height: 480px;   
     }
     .valeurs-content h1{
         font-size: 140%;

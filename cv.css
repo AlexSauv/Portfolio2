@@ -480,7 +480,7 @@ footer:active{
         padding: 6px;
     }
     .cv-introduction{
-        left: 35px;
+        left: 25px;
         top: 40px;
         width: 300px;
     }
@@ -494,7 +494,7 @@ footer:active{
     }
     .cv-itself{
         width: 310px;
-        left: 30px;
+        left: 20px;
         top: 100px;
         margin-bottom: 80px;
     }
@@ -504,7 +504,7 @@ footer:active{
     }
     .exp-items1{
         margin-top: 30px;
-        width: 310px;
+        width: 300px;
         height: 450px;
         left: 0px;
     }
@@ -520,7 +520,7 @@ footer:active{
         margin-top: 10px;
         text-align: justify;
         font-size: 110%;
-        width: 305px;
+        width: 300px;
     }
     .exp-items1 .exp-description ul{
         top: 15px;
@@ -537,7 +537,7 @@ footer:active{
     .exp-items2{
         display: block;
         margin-top: 30px;
-        max-width: 310px;
+        max-width: 300px;
         height: 450px;
         left: 0px;
     }
@@ -553,7 +553,7 @@ footer:active{
         margin-top: 10px;
         text-align: justify;
         font-size: 110%;
-        width: 305px;
+        width: 300px;
     }
     .exp-items2 .exp-description ul{
         top: 15px; 
@@ -567,8 +567,8 @@ footer:active{
         height: 10vh;
     }
     .school-content{
-        width: 310px;
-        left: 0px;
+        width: 300px;
+        left: 10px;
     }
     .school-content .school-title{
         margin-top: 125px;
@@ -578,10 +578,10 @@ footer:active{
         display: block;
     }
     .school-item1{
-        width: 320px;
+        width: 300px;
         height: 850px;
         padding: 20px;
-        margin-left: -5px;
+        margin-left: 0px;
     }
     .school-item1 h4{
         font-size: 120%;
@@ -607,10 +607,10 @@ footer:active{
         font-size: 120%;
     }
     .school-item2{
-        width: 320px;
+        width: 300px;
         height: 700px;
         padding: 20px;
-        margin-left: -5px;
+        margin-left: 0px;
         border-left: 2px solid #cecacab0;
     }
     .school-item2 h4{
