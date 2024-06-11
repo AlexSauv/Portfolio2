@@ -494,7 +494,7 @@ footer:active{
     }
     .cv-itself{
         width: 310px;
-        left: 20px;
+        left: 40px;
         top: 100px;
         margin-bottom: 80px;
     }
@@ -579,7 +579,7 @@ footer:active{
     }
     .school-item1{
         width: 300px;
-        height: 850px;
+        height: 900px;
         padding: 20px;
         margin-left: 0px;
     }
@@ -596,7 +596,7 @@ footer:active{
         font-size: 110%;
     }
     .school-item1 .school-description ul li{
-        margin-top: 10px;
+        margin-top: 5px;
     }
     .school-item1 img{
         width: 15vh;
@@ -608,7 +608,7 @@ footer:active{
     }
     .school-item2{
         width: 300px;
-        height: 700px;
+        height: 900px;
         padding: 20px;
         margin-left: 0px;
         border-left: 2px solid #cecacab0;
