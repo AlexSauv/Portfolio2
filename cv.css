@@ -480,7 +480,7 @@ footer:active{
         padding: 6px;
     }
     .cv-introduction{
-        left: 25px;
+        left: 30px;
         top: 40px;
         width: 300px;
     }
@@ -493,8 +493,8 @@ footer:active{
         font-style: italic;
     }
     .cv-itself{
-        width: 310px;
-        left: 40px;
+        width: 300px;
+        left: 30px;
         top: 100px;
         margin-bottom: 80px;
     }
