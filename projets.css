@@ -163,7 +163,7 @@ nav ul li a:hover::after{
 .item-content .description{
     position: relative;
     width: 900px;
-    height: 350px;
+    height: auto;
     padding: 10px;
     bottom: 30px;
     margin: auto;
@@ -287,7 +287,6 @@ nav ul li a:hover::after{
     }
     .item-content .description{
         width: 90%;
-        height: 250px;
         padding: 10px;
         bottom: 0px;
         margin-bottom: 20px;
