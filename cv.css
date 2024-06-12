@@ -324,7 +324,6 @@ nav ul li a:hover::after{
 .maetris-content p{
     text-align: justify;
     font-size: 13px;
-    margin-bottom: 10px;
 }
 .knowledge-content h4{
     text-decoration: underline;
@@ -356,7 +355,8 @@ nav ul li a:hover::after{
     display: flex;
     position: relative;
     justify-content: space-between;
-    top: 20px;   
+    top: 20px;  
+    margin-bottom: 10px; 
 }
 .school-item2 .school-description ul li{
     border: 2px solid #000000;
@@ -529,7 +529,6 @@ footer:active{
     }
     .exp-items2{
         display: block;
-        margin-top: 30px;
         width: 100%;
         height: 450px;
     }
@@ -571,7 +570,7 @@ footer:active{
     }
     .school-item1{
         width: 100%;
-        height: 900px;
+        height: auto;
         padding: 20px;
         margin-left: 0px;
     }
@@ -599,7 +598,7 @@ footer:active{
     }
     .school-item2{
         width: 100%;
-        height: 900px;
+        height: auto;
         padding: 20px;
         margin-left: 0px;
         border-left: 2px solid #cecacab0;
