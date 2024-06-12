@@ -20,6 +20,7 @@ body{
 .about-me-content{
     display: block;
     width: 100%;
+    height: auto;
 }
 nav{
     display: flex;
@@ -33,7 +34,7 @@ nav{
 .logo{
     max-height: 15vh;
     max-width: 15vh;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 nav ul li{
     list-style: none;
@@ -97,9 +98,8 @@ nav ul li a:hover::after{
     color: #e9e0e0;
     text-align: center;
     padding: 20px;
-    margin-top: 75px;
     width: 450px;
-    height: 250px;
+    height: auto;
 }
 .passion1 h2{
     font-size: 20px;
@@ -110,22 +110,21 @@ nav ul li a:hover::after{
     text-align: justify;
     border: 1px solid #e9e0e0;
     border-radius: 10px;
-    margin-top: 10px;
     padding: 20px;
 }
 .passion1 .img1{
-    position: absolute;
-    left: 45px;
-    top: 45px;
+    position: relative;
+    left: -35%;
+    top: 2%;
     width: 10vh;
     height: 10vh;
     border-radius: 50%;
     box-shadow: 0px 1px 2px 1px #1bd10a;
 }
 .passion1 .img2{
-    position: absolute;
-    right: 45px;
-    top: 45px;
+    position: relative;
+    right: -35%;
+    top: 2%;
     width: 10vh;
     height: 10vh;
     border-radius: 50%;
@@ -135,7 +134,7 @@ nav ul li a:hover::after{
     justify-content: center;
     align-items: center;
     text-align: center;
-    transform: translate(0%, -40%);
+    transform: translate(0%, 0%);
     color: #fff;
     width: 550px;
     height: 200px;
@@ -146,7 +145,7 @@ nav ul li a:hover::after{
     margin-top: -175px;
     padding: 20px;
     width: 450px;
-    height: 180px;
+    height: auto;
 }
 .passion2 h2{
     font-size: 20px;
@@ -161,18 +160,18 @@ nav ul li a:hover::after{
     padding: 20px;
 }
 .passion2 .img3{
-    position: absolute;
-    left: 45px;
-    top: -200px;
+    position: relative;
+    left: -35%;
+    top: 2%;
     width: 10vh;
     height: 10vh;
     border-radius: 50%;
     box-shadow: 0px 1px 2px 1px #1bd10a;
 }
 .passion2 .img4{
-    position: absolute;
-    right: 45px;
-    top: -200px;
+    position: relative;
+    right: -35%;
+    top: 2%;
     width: 10vh;
     height: 10vh;
     border-radius: 50%;
@@ -229,14 +228,10 @@ nav ul li a:hover::after{
         border-radius: 10px;
     }
     .passion1 .img1{
-        left: 15px;
-        top: 15px;
         width: 9vh;
         height: 9vh;
     }
     .passion1 .img2{
-        right: 15px;
-        top: 15px;
         width: 9vh;
         height: 9vh;
     }
@@ -248,7 +243,7 @@ nav ul li a:hover::after{
     .passion2{
         margin-top: -10px;
         padding: 10px;
-        width: 35%;
+        width: 60%;
     }
     .passion2 h2{
         font-size: 130%;
@@ -258,17 +253,12 @@ nav ul li a:hover::after{
         padding: 8px;
     }
     .passion2 .img3{
-        left: 15px;
-        top: -85px;
         width: 9vh;
         height: 9vh;
         border-radius: 50%;
         box-shadow: 0px 1px 2px 1px #1bd10a;
     }
     .passion2 .img4{
-        position: absolute;
-        right: 15px;
-        top: -85px;
         width: 9vh;
         height: 9vh;
         border-radius: 50%;

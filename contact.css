@@ -79,7 +79,7 @@ nav ul li a:hover::after{
 }
 .contact-items-content .social-link{
     display: flex;
-    height:44vh;
+    min-height:54vh;
     background-color: rgba(33, 33, 33, 0.711);
     justify-content: center;
     align-items: center;

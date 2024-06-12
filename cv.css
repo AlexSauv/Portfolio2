@@ -266,7 +266,7 @@ nav ul li a:hover::after{
     display: inline-block;
     text-align: center;
     width: 650px;
-    height: 850px;
+    height: 950px;
     padding: 50px;
     margin-bottom: 50px;
     border-right: 2px solid #650707;
@@ -341,7 +341,7 @@ nav ul li a:hover::after{
     display: inline-block;
     text-align: center;
     width: 650px;
-    height: 850px;
+    height: 950px;
     padding: 50px;
     right: 0;
     margin-bottom: 50px;
