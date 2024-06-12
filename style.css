@@ -125,12 +125,13 @@ nav ul li a:hover::after{
     margin-bottom: 40px;
 }
 
-@media (min-width:320px) and (max-width:499px){
+@media (min-width:320px) and (max-width:768px){
     html{
         font-size: 60%;
     }
     nav{
         min-width: 320px;
+        width: 100%;
         padding: 20px 5px;
         display: inline-flex;
     }
@@ -160,6 +161,6 @@ nav ul li a:hover::after{
     }
     .content p{
         text-align: justify;
-        width: 300px ;
+        width: 75% ;
     }
 }

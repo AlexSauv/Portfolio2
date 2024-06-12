@@ -415,7 +415,7 @@ footer:hover a{
 footer:active{
     box-shadow: 0px 0px 0px 0px;
 }
-@media (min-width:320px) and (max-width:499px) {
+@media (min-width:320px) and (max-width:768px) {
     html{
         font-size: 60%;
     }
@@ -429,6 +429,7 @@ footer:active{
     }
     nav{
         min-width: 320px;
+        width: 100%;
         max-height: 100px;
         padding: 20px 5px;
         display: inline-flex;

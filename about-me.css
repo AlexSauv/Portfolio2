@@ -14,7 +14,6 @@ body{
         background-position: center; 
         background-repeat: no-repeat;
         background-attachment: fixed;
-        height: 650px
         
     }
 
@@ -81,9 +80,16 @@ nav ul li a:hover::after{
     border: 2px solid #fff;
     box-shadow: 2px 2px 6px #1bd10a;
 }
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .passion-content{
     display: flex;
     position: relative;
+    width: 100%;
     justify-content: space-between;
     margin-top: 15px;
 }
@@ -102,6 +108,9 @@ nav ul li a:hover::after{
 .passion1 p{
     font-size: 14px;
     text-align: justify;
+    border: 1px solid #e9e0e0;
+    border-radius: 10px;
+    margin-top: 10px;
     padding: 20px;
 }
 .passion1 .img1{
@@ -123,15 +132,13 @@ nav ul li a:hover::after{
     box-shadow: 0px 1px 2px 1px #1bd10a;
 }
 .intro-content{
-    position: relative;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     text-align: center;
+    transform: translate(0%, -50%);
     color: #fff;
     width: 550px;
     height: 200px;
-    left: 32%;
-    top: -125px;
 }
 .passion2{
     color: #e9e0e0;
@@ -148,6 +155,9 @@ nav ul li a:hover::after{
 .passion2 p{
     font-size: 14px;
     text-align: justify;
+    border: 1px solid #e9e0e0;
+    border-radius: 10px;
+    margin-top: 10px;
     padding: 20px;
 }
 .passion2 .img3{
@@ -168,7 +178,7 @@ nav ul li a:hover::after{
     border-radius: 50%;
     box-shadow: 0px 1px 2px 1px #1bd10a;
 }
-@media (min-width:320px) and (max-width:499px){
+@media (min-width:320px) and (max-width:1350px){
     html{
         font-size: 60%;
     }
@@ -177,6 +187,7 @@ nav ul li a:hover::after{
     }
     nav{
         min-width: 320px;
+        width: 100%;
         max-height: 100px;
         padding: 20px 5px;
         display: inline-flex;
@@ -207,7 +218,7 @@ nav ul li a:hover::after{
         padding: 10px;
         margin-top: 70px;
         width: 320px;
-        height: 250px;
+        height: 300px;
     }
     .passion1 h2{
         font-size: 130%;
@@ -215,8 +226,6 @@ nav ul li a:hover::after{
     .passion1 p{
         font-size: 100%;
         padding: 8px;
-        height: 180px;
-        border: 1px solid #e9e0e0;
         border-radius: 10px;
     }
     .passion1 .img1{
@@ -233,25 +242,19 @@ nav ul li a:hover::after{
     }
     .intro-content{
         width: 300px;
-        height: 200px;
-        left: 40px;
-        top: -60px;
+        height: 120px;
     }
     .passion2{
         margin-top: -30px;
         padding: 10px;
         width: 320px;
-        height: 250px;
     }
     .passion2 h2{
         font-size: 130%;
     }
     .passion2 p{
         font-size: 100%;
-        height: 130px;
         padding: 8px;
-        border: 1px solid #e9e0e0;
-        border-radius: 10px;
     }
     .passion2 .img3{
         left: 15px;
