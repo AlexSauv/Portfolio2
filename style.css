@@ -125,7 +125,7 @@ nav ul li a:hover::after{
     margin-bottom: 40px;
 }
 
-@media (min-width:320px) and (max-width:768px){
+@media (min-width:320px) and (max-width:1330px){
     html{
         font-size: 60%;
     }
@@ -147,7 +147,7 @@ nav ul li a:hover::after{
     .logo{
         max-width: 6vh;
         max-height: 6vh;
-        margin-right: 10px;
+        margin-left: 10px;
     } 
     .btn{
         position: relative;
@@ -161,6 +161,7 @@ nav ul li a:hover::after{
     }
     .content p{
         text-align: justify;
+        font-size: 110%;
         width: 75% ;
     }
 }

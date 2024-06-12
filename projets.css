@@ -211,7 +211,7 @@ nav ul li a:hover::after{
 .projet-item .items-content::before{
     visibility: hidden;
 }
-@media (min-width:320px) and (max-width:768px) {
+@media (min-width:320px) and (max-width:1330px) {
     html{
         font-size: 60%;
     }
@@ -247,7 +247,7 @@ nav ul li a:hover::after{
     .introduction{
         top: 0px;
         height: 350px;
-        width: 300px;
+        width: 70%;
         margin-bottom: 40px;
     }
     .introduction h1{
@@ -263,7 +263,7 @@ nav ul li a:hover::after{
       
     }
     .projet-item{
-        width: 295px;
+        width: 75%;
         padding-bottom: 25px;
         padding-top: 25px;
     
@@ -286,8 +286,8 @@ nav ul li a:hover::after{
         margin-left: 0px;
     }
     .item-content .description{
-        width: 290px;
-        height: 320px;
+        width: 90%;
+        height: 250px;
         padding: 10px;
         bottom: 0px;
         margin-bottom: 20px;

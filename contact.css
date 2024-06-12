@@ -177,7 +177,7 @@ nav ul li a:hover::after{
     .logo{
         max-width: 8vh;
         max-height: 8vh;
-        margin-right: 10px;
+        margin-left: 10px;
     } 
     .title {
       padding: 30px;

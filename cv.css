@@ -77,9 +77,10 @@ nav ul li a:hover::after{
 }
 .cv-content{
     width: 100%;
-    display: inline-block;
-    position: relative;
-    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: #e9e0e0;
 }
 .current-wish h2{
@@ -88,14 +89,14 @@ nav ul li a:hover::after{
     font-size: 20px;
     text-align: center;
     margin-top: 80px;
-    margin-left: 120px;
     
 }
 .link-school{
     width: 310px;
     height: 50px;
     padding: 12px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
     text-align: center;
     background-color: rgba(255, 126, 126, 0.25);
     border-radius: 10px;
@@ -115,7 +116,6 @@ nav ul li a:hover::after{
 }
 .cv-introduction{
     position: relative;
-    left: 350px;
     top: 100px;
     width: 825px;
     height: 250px;
@@ -138,8 +138,9 @@ nav ul li a:hover::after{
 }
 .cv-itself{
     position: relative;
-    width: 1400px;
-    left: 60px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
     top: 200px;
     margin-bottom: 220px;
 }
@@ -154,9 +155,8 @@ nav ul li a:hover::after{
     display: block;
     position: relative;
     margin-top: 100px;
-    width: 1300px;
+    width: 90%;
     height: 600px;
-    left: 60px;
     padding: 20px;
 }
 .exp-items1 .exp-description{
@@ -164,9 +164,10 @@ nav ul li a:hover::after{
     position: relative;
     text-align: center;
     height: 370px;
-    width: 750px;
+    width: 65%;
+    height: auto;
     top: -80px;
-    left: 450px;
+    left: 40%;
     border-bottom: 2px solid #930c0c;
 }
 .exp-items1 .exp-description h3{
@@ -187,11 +188,11 @@ nav ul li a:hover::after{
     background-color: rgb(255, 255, 255, 0.25);
     padding: 6px;
     border-radius: 10px;
-   list-style: none;
+    list-style: none;
 }
 .exp-items1 img{
-    width: 40vh;
-    height: 40vh;
+    width: 35vh;
+    height: 35vh;
     border-radius: 50%;
     border: 1px solid;
     opacity: 0.90;
@@ -201,20 +202,18 @@ nav ul li a:hover::after{
     display: block;
     position: relative;
     margin-top: 120px;
-    width: 1300px;
+    width: 90%;
     height: 600px;
-    left: 60px;
     padding: 20px;
 }
 .exp-items2 .exp-description{
     display: block;
     position: relative;
     text-align: center;
-    height: 350px;
-    width: 750px;
+    width: 65%;
+    height: auto;
     margin-top: 250px;
     top: -80px;
-    left: 75px;
     border-bottom: 2px solid #c0bcbc;
 }
 .exp-items2 .exp-description h3{
@@ -239,8 +238,9 @@ nav ul li a:hover::after{
 }
 .exp-items2 img{
     float: right;
-    width: 40vh;
-    height: 40vh;
+    right: 10%;
+    width: 35vh;
+    height: 35vh;
     border-radius: 50%;
     opacity: 0.90;
     border: 1px solid;
@@ -264,6 +264,7 @@ nav ul li a:hover::after{
 }
 .school-item1{
     display: inline-block;
+    text-align: center;
     width: 650px;
     height: 850px;
     padding: 50px;
@@ -281,8 +282,8 @@ nav ul li a:hover::after{
     font-size: 11px;
     margin-bottom: 10px;
 }
-.school-item1 .school-description{
-    text-align: center;
+.school-item1 .school-description p{
+    text-align: justify;
     
 }
 .school-description h3{
@@ -307,10 +308,8 @@ nav ul li a:hover::after{
     list-style: none;
 }
 .school-item1 img{
-    position: relative;
     width: 25vh;
     height: 20vh;
-    left: 180px;
     border-radius: 10px;
 }
 .maetris-content h4{
@@ -339,11 +338,9 @@ nav ul li a:hover::after{
     margin-bottom: 45px;
     padding: 14px;
 }
-
-
-
 .school-item2{
     display: inline-block;
+    text-align: center;
     width: 650px;
     height: 850px;
     padding: 50px;
@@ -352,8 +349,8 @@ nav ul li a:hover::after{
     border-radius: 8px;
     background-color: rgba(255, 126, 126, 0.25);
 }
-.school-item2 .school-description{
-    text-align: center;
+.school-item2 .school-description p{
+    text-align: justify;
 }
 .school-item2 .school-description ul{
     display: flex;
@@ -370,10 +367,8 @@ nav ul li a:hover::after{
 
 }
 .school-item2 img{
-    position: relative;
     width: 25vh;
     height: 20vh;
-    left: 180px;
     border-radius: 10px;
 }
 .school-item2 h4{
@@ -382,10 +377,10 @@ nav ul li a:hover::after{
 }
 footer {
     background-color: rgba(192, 191, 191, 0.481);
-    position: absolute;
+    position: relative;
     color: #e9e0e0;
-    left: 90%;
-    bottom: 12px;
+    right: -40%;
+    margin-bottom: 10px;
     border-radius: 10px;
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.747);
     transition: all ease-in-out 0.4s;
@@ -415,7 +410,7 @@ footer:hover a{
 footer:active{
     box-shadow: 0px 0px 0px 0px;
 }
-@media (min-width:320px) and (max-width:768px) {
+@media (min-width:320px) and (max-width:1330px) {
     html{
         font-size: 60%;
     }
@@ -446,7 +441,7 @@ footer:active{
     .logo{
         max-width: 6vh;
         max-height: 6vh;
-        margin-right: 10px;
+        margin-left: 10px;
     } 
     .btn{
         position: relative;
@@ -483,7 +478,7 @@ footer:active{
     .cv-introduction{
         left: 0px;
         top: 40px;
-        width: 300px;
+        width: 75%;
     }
     .cv-introduction h1{
         font-size: 110%;
@@ -494,8 +489,7 @@ footer:active{
         font-style: italic;
     }
     .cv-itself{
-        width: 300px;
-        left: 0px;
+        width: 70%;
         top: 100px;
         margin-bottom: 80px;
     }
@@ -505,14 +499,14 @@ footer:active{
     }
     .exp-items1{
         margin-top: 30px;
-        width: 300px;
+        width: 100%;
         height: 450px;
         left: 0px;
     }
     .exp-items1 .exp-description{
-        width: 300px;
+        width: 100%;
         top: 10px;
-        left: -15px;
+        left: 0%;
     }
     .exp-items1 .exp-description h3{
         font-size: 120%;
@@ -521,31 +515,28 @@ footer:active{
         margin-top: 10px;
         text-align: justify;
         font-size: 110%;
-        width: 300px;
-    }
-    .exp-items1 .exp-description ul{
-        top: 15px;
-        
+        width: 100%;
     }
     .exp-items1 .exp-description ul li{
         padding: 3px;
         width: 70px;
     }
     .exp-items1 img{
+        position: relative;
         width: 10vh;
         height: 10vh;
+        left: 0%;
     }
     .exp-items2{
         display: block;
         margin-top: 30px;
-        max-width: 300px;
+        width: 100%;
         height: 450px;
-        left: 0px;
     }
     .exp-items2 .exp-description{
-        width: 300px;
+        width: 100%;
         top: -160px;
-        left: -15px;
+        left: 0%;
     }
     .exp-items2 .exp-description h3{
         font-size: 120%;
@@ -554,21 +545,21 @@ footer:active{
         margin-top: 10px;
         text-align: justify;
         font-size: 110%;
-        width: 300px;
+        width: 100%;
     }
-    .exp-items2 .exp-description ul{
-        top: 15px; 
-    }
+
     .exp-items2 .exp-description ul li{
         padding: 3px;
         width: 70px;
     }
     .exp-items2 img{
+        position: relative;
         width: 10vh;
         height: 10vh;
+        left: 0%;
     }
     .school-content{
-        width: 300px;
+        width: 100%;
         left: 0px;
     }
     .school-content .school-title{
@@ -579,7 +570,7 @@ footer:active{
         display: block;
     }
     .school-item1{
-        width: 300px;
+        width: 100%;
         height: 900px;
         padding: 20px;
         margin-left: 0px;
@@ -602,13 +593,12 @@ footer:active{
     .school-item1 img{
         width: 15vh;
         height: 10vh;
-        left: 85px;
     }
     .maetris-content h5{
         font-size: 120%;
     }
     .school-item2{
-        width: 300px;
+        width: 100%;
         height: 900px;
         padding: 20px;
         margin-left: 0px;
@@ -623,11 +613,10 @@ footer:active{
     .school-item2 img{
         width: 15vh;
         height: 10vh;
-        left: 90px;
     }
     footer {
-        left: 70%;
-        bottom: -5px;
+        left: 30%;
+        margin-bottom: 15px;
     }
     .footer-content{
         width: 90px;
